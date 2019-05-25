@@ -88,5 +88,17 @@ export default [
       require('../assets/images/enlightenmentStar/5.jpg'),
       require('../assets/images/enlightenmentStar/6.jpg'),
     ]
+  },
+  {
+    name:'魔力方块',
+    startTime:'2017-10',
+    endTime:'2018-1',
+    des:'<a href="http://weixincs.midea.com/apps//wx-game-template/magicsquare/index.html#!/">点击前往</a> 基于微信小游戏刷爆朋友圈推广效应来推广产品。 为此目的在原来游戏管理平台上新增 魔力方块游戏，次游戏与以往不同， 游戏皮肤和奖品 管理者可以随意跟改，例如圣诞节可以跟改圣诞主题风格！ 次游戏类似于 踩黑白格',
+    img:[
+      require('../assets/images/magicBox/1.jpg'),
+      require('../assets/images/magicBox/2.jpg'),
+      require('../assets/images/magicBox/3.jpg'),
+
+    ]
   }
 ]

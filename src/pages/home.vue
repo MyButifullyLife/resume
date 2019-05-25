@@ -25,7 +25,7 @@
       <div class="trendChart" ref="trendChart">
       </div>
     </section>
-    
+
     <section class="rocket "  :class="{'rocketUp': showDetail}" @click="rocketUp" >
        <img boomImg  ref="rocketImg" id="rocketImg"  :class="{'rocketScale':!showDetail}"  src="../assets/images/火箭.png" alt="">
     </section>
@@ -158,7 +158,7 @@
   }
 </script>
 
-<style lang="less" scoped>
+<style lang="less"  >
   @import "../assets/css/common.less";
 
   .head-cot {
@@ -283,8 +283,13 @@
         word-break: break-all;
         .fs(30);
         color: #5b5b5b;
-      }
 
+        a{
+          color: #55ACEE !important;
+          font-weight: bold !important;
+        }
+
+      }
       .footer-list-imgCot {
         overflow: hidden;
         width: 70vw;
